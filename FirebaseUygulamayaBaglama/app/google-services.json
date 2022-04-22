@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "183707078770",
+    "project_id": "yeni-bildirim-8e3cb",
+    "storage_bucket": "yeni-bildirim-8e3cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183707078770:android:dbea1a825f5a618dcdf2eb",
+        "android_client_info": {
+          "package_name": "com.example.firebaseuygulamayabaglama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183707078770-c968tgagsf2o31tc5tjjt804tqockmlm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqRBgB1ni-hy01fAaMxo3er7ywqk1XVVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183707078770-c968tgagsf2o31tc5tjjt804tqockmlm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
