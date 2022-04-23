@@ -1,0 +1,17 @@
+Sayýdan Stringe dönüþüm 
+
+
+int sayi = 56;
+
+String kelime1= String.valueOf(sayi); --->>> bu metot daha verimli çalýþýr
+String kelime2 = String.toString(sayi);
+String kelime3 = sayi + "" ;
+
+Stringden Sayýsal ifadeye dönüþüm
+
+
+String kelime = "56";
+
+
+int sayi1 = Integer.parseInt(kelime);
+int sayi2 = Integer.valueOf(kelime);

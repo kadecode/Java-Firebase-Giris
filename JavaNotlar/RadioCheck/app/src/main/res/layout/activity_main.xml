@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="Hangi Dilleri Biliyorsunuz ?"
+        android:textColor="#2F3D8A"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/kodlinBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Kodlin"
+        android:textSize="18sp"
+        app:buttonTint="#7ABAED"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/javaBox" />
+
+    <CheckBox
+        android:id="@+id/javaBox"
+        style="@android:style/Widget.Holo.CompoundButton.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="  Java"
+        android:textSize="18sp"
+        app:buttonTint="#6CB2EA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="Hangi Takımı Tutuyorsun ?"
+        android:textColor="#2F3D8A"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kodlinBox" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="342dp">
+
+        <RadioButton
+            android:id="@+id/radioBesik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beşiktaş"
+            android:textSize="18sp"
+            app:buttonTint="#7ABAED" />
+
+        <RadioButton
+            android:id="@+id/radioFener"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#E43535"
+            android:text="Fenerbahçe"
+            android:textSize="18sp"
+            app:buttonTint="#7ABAED" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:insetTop="6dp"
+        android:lineSpacingExtra="8sp"
+        android:text="Button"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:backgroundTint="#2F3D8A"
+        app:elevation="100dp"
+        app:icon="@android:drawable/ic_input_add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:strokeColor="#09870E"
+        tools:visibility="visible" />
+</androidx.constraintlayout.widget.ConstraintLayout>
