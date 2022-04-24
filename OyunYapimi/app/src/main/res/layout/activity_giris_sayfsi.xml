@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GirisSayfsiActivity">
+
+    <ImageView
+        android:id="@+id/imageViewTuruncu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="45dp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewTuruncu"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSari"
+        app:srcCompat="@drawable/turuncu_yumurta" />
+
+    <ImageView
+        android:id="@+id/imageViewSari"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="45dp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewSari"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewMavi"
+        app:srcCompat="@drawable/sari_yumurta" />
+
+    <ImageView
+        android:id="@+id/imageViewYesil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewYesil"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/yesil_yumurta" />
+
+    <ImageView
+        android:id="@+id/imageViewMavi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="45dp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewMavi"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewYesil"
+        app:srcCompat="@drawable/mavi_yumurta" />
+
+    <ImageView
+        android:id="@+id/adam2"
+        android:layout_width="140dp"
+        android:layout_height="225dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonGiris"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/yumurta_adam" />
+
+    <Button
+        android:id="@+id/buttonGiris"
+        android:layout_width="225dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="36dp"
+        android:background="#1C5C83"
+        android:text="Oyuna Başla"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewYesil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="120dp"
+        android:text="Oyun Bitti"
+        android:textColor="#1C5C83"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewMavi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="185dp"
+        android:text="50"
+        android:textColor="#1C5C83"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewYesil" />
+
+    <TextView
+        android:id="@+id/textViewSari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="183dp"
+        android:text="20"
+        android:textColor="#1C5C83"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMavi" />
+
+    <TextView
+        android:id="@+id/textViewTuruncu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="184dp"
+        android:text="20"
+        android:textColor="#1C5C83"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSari" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

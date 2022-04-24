@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewSkor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="100"
+        android:textColor="#1C5C83"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewBasla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="75dp"
+        android:text="Oyuna başlamak için tıkla"
+        android:textColor="#1C5C83"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewAdam"
+        android:layout_width="90dp"
+        android:layout_height="145dp"
+        app:srcCompat="@drawable/yumurta_adam"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <ImageView
+        android:id="@+id/imageViewYesil"
+        android:layout_width="50dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/yesil_yumurta"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <ImageView
+        android:id="@+id/imageViewTuruncu"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/turuncu_yumurta"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <ImageView
+        android:id="@+id/imageViewMavi"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/mavi_yumurta"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <ImageView
+        android:id="@+id/imageViewSari"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/sari_yumurta"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="62dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
